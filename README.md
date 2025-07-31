@@ -55,3 +55,26 @@
 
 
 # DBMS Advantages – Mind Map
+<img width="1920" height="1080" alt="DBMS advantages" src="https://github.com/user-attachments/assets/c13af1e7-e002-437d-aba5-f2d576373f6a" />
+
+
+# Roles in a Database System
+
+-System Analys:
+Acts as a bridge between business needs and technical solutions.
+
+Database Designer
+ Acts as the architect of the database, creating the structure to store and organize data efficiently.
+
+Builds, maintains, and troubleshoots databases to handle large amounts of information securely and efficiently.
+
+Database Administrator (DBA)
+ Ensures the database is secure, available, and running smoothly at all times.
+
+Application Developer
+Converts client requirements into functional software applications that interact with the database.
+
+BI (Business Intelligence) Developer
+ Turns raw data into meaningful insights and reports to help businesses make data-driven decisions
+
+# Types of Databases
