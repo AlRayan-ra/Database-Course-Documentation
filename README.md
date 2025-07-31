@@ -60,101 +60,105 @@
 
 # Roles in a Database System
 
--System Analys:
+- System Analys:
 Acts as a bridge between business needs and technical solutions.
 
-Database Designer
+- Database Designer
  Acts as the architect of the database, creating the structure to store and organize data efficiently.
 
+- Database Developer
 Builds, maintains, and troubleshoots databases to handle large amounts of information securely and efficiently.
 
-Database Administrator (DBA)
+- Database Administrator (DBA)
  Ensures the database is secure, available, and running smoothly at all times.
 
-Application Developer
+- Application Developer
 Converts client requirements into functional software applications that interact with the database.
 
-BI (Business Intelligence) Developer
+- BI (Business Intelligence) Developer
  Turns raw data into meaningful insights and reports to help businesses make data-driven decisions
 
 # Types of Databases
 
-Relational vs. Non-Relational Databases
-Relational Databases (RDBMS):
+ Relational vs. Non-Relational Databases
+ 
+1-  Relational Databases (RDBMS):
 
-Organize data into interrelated tables with rows and columns.
+- Organize data into interrelated tables with rows and columns.
 
-Use SQL (Structured Query Language) for querying and enforcing relationships.
+- Use SQL (Structured Query Language) for querying and enforcing relationships.
 
-Ensure data accuracy and integrity using schemas and constraints.
+- Ensure data accuracy and integrity using schemas and constraints.
 
-Examples: MySQL, PostgreSQL, Oracle.
+- Examples: MySQL, PostgreSQL, Oracle.
 
-Use Cases: Finance, healthcare, ERP systems – where structured data and complex queries are required.
+- Use Cases: Finance, healthcare, ERP systems – where structured data and complex queries are required.
 
-Non-Relational Databases (NoSQL):
+2- Non-Relational Databases (NoSQL):
 
-Store data in flexible formats such as documents, key-value pairs, graphs, or column stores.
+- Store data in flexible formats such as documents, key-value pairs, graphs, or column stores.
 
-Support schema-less design, ideal for unstructured or semi-structured data.
+- Support schema-less design, ideal for unstructured or semi-structured data.
 
-Designed for scalability and high traffic using distributed clusters.
+- Designed for scalability and high traffic using distributed clusters.
 
-Examples: MongoDB, Cassandra, Redis.
+- Examples: MongoDB, Cassandra, Redis.
 
-Use Cases: Social media apps, IoT networks, content management systems – where flexibility and rapid scaling are important.
+- Use Cases: Social media apps, IoT networks, content management systems – where flexibility and rapid scaling are important.
 
 Centralized vs. Distributed vs. Cloud Databases
-Centralized Database:
 
-All data is stored on a single server or location.
+1- Centralized Database:
 
-Advantages: Easy to manage, consistent data source.
+- All data is stored on a single server or location.
 
-Disadvantages: Single point of failure, limited scalability.
+- Advantages: Easy to manage, consistent data source.
 
-Use Case: Small businesses or organizations with one office.
+- Disadvantages: Single point of failure, limited scalability.
 
-Distributed Database:
+- Use Case: Small businesses or organizations with one office.
 
-Data is spread across multiple servers or geographic locations.
+2- Distributed Database:
 
-Advantages: High availability, better performance, fault tolerance.
+- Data is spread across multiple servers or geographic locations.
 
-Disadvantages: Complex management and synchronization.
+- Advantages: High availability, better performance, fault tolerance.
 
-Use Case: Large e-commerce platforms or multinational companies.
+- Disadvantages: Complex management and synchronization.
 
-Cloud Database:
+- Use Case: Large e-commerce platforms or multinational companies.
 
-Hosted on cloud platforms like AWS, Azure, or Google Cloud.
+3- Cloud Database:
 
-Advantages: Scalable, accessible from anywhere, managed infrastructure.
+- Hosted on cloud platforms like AWS, Azure, or Google Cloud.
 
-Disadvantages: Requires internet, potential data privacy concerns.
+- Advantages: Scalable, accessible from anywhere, managed infrastructure.
 
-Use Case: SaaS applications, startups, and apps needing global access.
+- Disadvantages: Requires internet, potential data privacy concerns.
 
-3. Use Case Examples for Each Type
-Relational Database Example:
+- Use Case: SaaS applications, startups, and apps needing global access.
 
-A bank storing customer accounts and transactions with strict consistency requirements.
+ Use Case Examples for Each Type
+ 
+1- Relational Database Example:
 
-Non-Relational Database Example:
+- A bank storing customer accounts and transactions with strict consistency requirements.
 
-A social media app storing user profiles, posts, and comments that need rapid scaling.
+2- Non-Relational Database Example:
 
-Centralized Database Example:
+- A social media app storing user profiles, posts, and comments that need rapid scaling.
 
-A small retail shop with one location managing its inventory on a single server.
+3- Centralized Database Example:
 
-Distributed Database Example:
+- A small retail shop with one location managing its inventory on a single server.
 
-An online marketplace (like Amazon) with data replicated across regions for speed and fault tolerance.
+4- Distributed Database Example:
 
-Cloud Database Example:
+- An online marketplace (like Amazon) with data replicated across regions for speed and fault tolerance.
 
-A SaaS company using Amazon RDS or Azure SQL to allow global user access without managing hardware.
+5- Cloud Database Example:
+
+- A SaaS company using Amazon RDS or Azure SQL to allow global user access without managing hardware.
 
 # 5. Cloud Storage and Databases
 
@@ -194,3 +198,10 @@ It supports databases by providing:
 - Latency: Data access speed can depend on network quality.
 
 - Cost Management: Long-term cloud costs can rise if resources are not optimized.
+
+# References:
+- https://www.educative.io/answers/what-are-the-roles-of-a-systems-analyst
+- https://medium.com/@madushanp835/job-roles-in-database-design-12ab759ed07e
+- https://www.indeed.com/recruitment/job-description/database-developer#:~:text=A%20Database%20Developer%2C%20or%20Database,information%20and%20keep%20it%20secure.
+- https://www.educative.io/answers/what-are-the-roles-of-a-systems-analyst
+
