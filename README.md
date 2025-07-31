@@ -78,3 +78,80 @@ BI (Business Intelligence) Developer
  Turns raw data into meaningful insights and reports to help businesses make data-driven decisions
 
 # Types of Databases
+
+Relational vs. Non-Relational Databases
+Relational Databases (RDBMS):
+
+Organize data into interrelated tables with rows and columns.
+
+Use SQL (Structured Query Language) for querying and enforcing relationships.
+
+Ensure data accuracy and integrity using schemas and constraints.
+
+Examples: MySQL, PostgreSQL, Oracle.
+
+Use Cases: Finance, healthcare, ERP systems – where structured data and complex queries are required.
+
+Non-Relational Databases (NoSQL):
+
+Store data in flexible formats such as documents, key-value pairs, graphs, or column stores.
+
+Support schema-less design, ideal for unstructured or semi-structured data.
+
+Designed for scalability and high traffic using distributed clusters.
+
+Examples: MongoDB, Cassandra, Redis.
+
+Use Cases: Social media apps, IoT networks, content management systems – where flexibility and rapid scaling are important.
+
+Centralized vs. Distributed vs. Cloud Databases
+Centralized Database:
+
+All data is stored on a single server or location.
+
+Advantages: Easy to manage, consistent data source.
+
+Disadvantages: Single point of failure, limited scalability.
+
+Use Case: Small businesses or organizations with one office.
+
+Distributed Database:
+
+Data is spread across multiple servers or geographic locations.
+
+Advantages: High availability, better performance, fault tolerance.
+
+Disadvantages: Complex management and synchronization.
+
+Use Case: Large e-commerce platforms or multinational companies.
+
+Cloud Database:
+
+Hosted on cloud platforms like AWS, Azure, or Google Cloud.
+
+Advantages: Scalable, accessible from anywhere, managed infrastructure.
+
+Disadvantages: Requires internet, potential data privacy concerns.
+
+Use Case: SaaS applications, startups, and apps needing global access.
+
+3. Use Case Examples for Each Type
+Relational Database Example:
+
+A bank storing customer accounts and transactions with strict consistency requirements.
+
+Non-Relational Database Example:
+
+A social media app storing user profiles, posts, and comments that need rapid scaling.
+
+Centralized Database Example:
+
+A small retail shop with one location managing its inventory on a single server.
+
+Distributed Database Example:
+
+An online marketplace (like Amazon) with data replicated across regions for speed and fault tolerance.
+
+Cloud Database Example:
+
+A SaaS company using Amazon RDS or Azure SQL to allow global user access without managing hardware.
